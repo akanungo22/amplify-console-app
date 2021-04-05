@@ -1,0 +1,55 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-amplifyconsoleapp-dev-223233-authRole",
+      "UnauthRoleArn": "arn:aws:iam::657339121781:role/amplify-amplifyconsoleapp-dev-223233-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::657339121781:role/amplify-amplifyconsoleapp-dev-223233-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-amplifyconsoleapp-dev-223233-deployment",
+      "UnauthRoleName": "amplify-amplifyconsoleapp-dev-223233-unauthRole",
+      "StackName": "amplify-amplifyconsoleapp-dev-223233",
+      "StackId": "arn:aws:cloudformation:us-east-1:657339121781:stack/amplify-amplifyconsoleapp-dev-223233/7126bc90-9656-11eb-bcc6-0adc8babde53",
+      "AmplifyAppId": "d3pt7jr2pg09y4"
+    }
+  },
+  "auth": {
+    "amplifyconsoleapp2a9ba9e6": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplifyconsoleapp-dev-223233-deployment/amplify-cfn-templates/auth/amplifyconsoleapp2a9ba9e6-cloudformation-template.yml",
+        "logicalId": "authamplifyconsoleapp2a9ba9e6"
+      },
+      "lastPushTimeStamp": "2021-04-05T21:58:49.691Z",
+      "output": {
+        "UserPoolId": "us-east-1_UwcfdhZLz",
+        "AppClientIDWeb": "5c8fo0irsp5a9nmcsbt3jsc7o1",
+        "AppClientID": "3nlht8b4dh6aqmtkldsdur2ajj",
+        "IdentityPoolId": "us-east-1:37f6fc12-3806-408f-b87f-7bcd35cd3527",
+        "IdentityPoolName": "amplifyconsoleapp2a9ba9e6_identitypool_2a9ba9e6__dev",
+        "UserPoolName": "amplifyconsoleapp2a9ba9e6_userpool_2a9ba9e6"
+      },
+      "lastPushDirHash": "KsKQ+H9ej7VN55sHS5uxzI6VD+s="
+    }
+  },
+  "hosting": {
+    "S3AndCloudFront": {
+      "service": "S3AndCloudFront",
+      "providerPlugin": "awscloudformation",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplifyconsoleapp-dev-223233-deployment/amplify-cfn-templates/hosting/template.json",
+        "logicalId": "hostingS3AndCloudFront"
+      },
+      "lastPushTimeStamp": "2021-04-05T21:58:49.691Z",
+      "output": {
+        "S3BucketSecureURL": "https://amplifyconsoleapp-20210405225501-hostingbucket-dev.s3.amazonaws.com",
+        "WebsiteURL": "http://amplifyconsoleapp-20210405225501-hostingbucket-dev.s3-website-us-east-1.amazonaws.com",
+        "Region": "us-east-1",
+        "HostingBucketName": "amplifyconsoleapp-20210405225501-hostingbucket-dev"
+      },
+      "lastPushDirHash": "7iHYxMvbrxjRZzy71Vu/Tr+8oSg="
+    }
+  }
+}
